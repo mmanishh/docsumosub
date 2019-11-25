@@ -18,6 +18,6 @@ To install dependencies : `pip install -r requirements.txt`
 | 7    | 1 LSTM 64 cells, d =0.3,optimizer = Adam                 | 87.23           | 88.96         | 50     |
 | 8    | 1 Bidirectional LSTM 64 cells, d=0.3,optimizer = Adam    | 89.81           | 89.47         | 50     |
 | 9    | 1 Bidirectional LSTM 128 cells,Conv1D,Pooling            | 89.40           | 90.29         | 50     |
-
+| 10   | Same as 9,max_words=12000                                | 95.48           | 92.27         | 50     |
 
 
